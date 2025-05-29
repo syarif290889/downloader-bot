@@ -1,0 +1,20 @@
+{
+  "name": "downloader-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk download video menggunakan yt-dlp",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "yt-dlp",
+    "downloader"
+  ],
+  "author": "Goten",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
